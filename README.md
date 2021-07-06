@@ -1,10 +1,10 @@
 # BuggyCares
 Projeto de Multimedia: Jogo BuggyCares
-
-##Colaboradores
+ 
+## Colaboradores
 - Beatriz Santos
 - José Veríssimo
 - Pedro Tomás
 
-##Requisitos
+## Requisitos
 - Google Chrome
