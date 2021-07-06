@@ -1,0 +1,336 @@
+
+canvas{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;
+}
+
+body{
+	position: relative;
+}
+.botoesmenu button{
+	position: absolute;
+	cursor: pointer;
+	background-color: inherit;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	outline: none;
+	padding: 0px;	
+}
+
+/*
+.botoesmenu button:hover{
+	box-shadow: 0px 0px 25px #87CEFA;
+}*/
+
+.botoesmenu button img{
+	margin: 0%;
+	height: 24%;
+	width: 25%;
+}
+
+#jogar{
+	margin-left: 22%;
+	top: 23%;
+}
+
+#ranking{
+	margin-left: 22%;	
+	top: 35%;
+}
+
+#opcoes{
+	margin-left: 22%;	
+	top: 47%;
+}
+
+#ajuda{
+	margin-left: 22%;	
+	top: 59%;
+}
+
+#continuar{
+	margin-left:47.5%;	
+	top: 60%;
+}
+
+.botoessair button{
+	cursor: pointer;
+	position: absolute;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+.botoessair button img{
+	margin: 0%;
+	height: 35%;
+	width: 40%;
+}
+/*
+.botoessair button:hover{
+	box-shadow: 0px 0px 10px #87CEFA;
+}*/
+
+#sair{
+	margin-left: 59.5%;	
+	top: 80%;
+}
+
+#creditos{
+	margin-left: 7.5%;	
+	top: 80%;
+}
+
+#voltar{
+	margin-left: 60%;	
+	top: 80%;
+}
+
+.confirm button{
+	cursor: pointer;
+	position: absolute;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+/*
+.confirm button:hover{
+	box-shadow: 0px 0px 40px #FFFFFF;
+}*/
+
+.confirm button img{
+	margin: 0%;
+	height: 100px;
+	width: 100px;
+}
+
+#sim{
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	margin-left:38%;	
+	top: 47%;
+
+}
+#nao{
+	border: none;
+	outline: none;
+	border-radius: 55%;
+	margin-left:54%;	
+	top: 47%;
+}
+
+.box button{
+	position: absolute;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+
+.box button img{
+	margin: 0px;
+	height: auto;
+	width: auto;
+}
+
+#confirmBox{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left:20%;	
+	top: 150px;
+}
+
+.volume button{
+	margin: 0%;
+	cursor: pointer;
+	position: absolute;
+	border: none;
+	outline: none;
+	background-color: inherit;
+	padding: 0px;
+}
+.volume button img{
+	height:60%;
+	width: 40%
+}
+
+#maisvolume{
+	margin-left:51%;	
+	top: 36%;
+}
+#menosvolume{
+	margin-left:45%;	
+	top: 36%;
+}
+#com_som{
+	margin-left:38%;	
+	top: 36%;
+}
+#sem_som{
+	margin-left:38%;	
+	top: 36%;
+}
+
+#com_som_2{
+	margin-left:38%;	
+	top: 36%;
+}
+
+#sem_som2{
+	margin-left:38%;	
+	top: 48%;
+}
+
+#com_som_1{
+	margin-left:38%;	
+	top: 36%;
+}
+
+#maisvolume2{
+	margin-left:51%;	
+	top: 48%;
+}
+#menosvolume2{
+	margin-left:45%;	
+	top: 48%;
+}
+
+#com_som2{
+	margin-left:38%;	
+	top: 48%;
+}
+
+#com_som_22{
+	margin-left:38%;	
+	top: 48%;
+}
+#com_som_11{
+	margin-left:38%;	
+	top: 48%;
+}
+
+#inputName{
+	position: absolute;
+	top: 32%;
+	left: 56%;
+	height: 8%;
+	font-size: x-large;
+	transform: translate(-50%,-50%);
+}
+
+#inputAge{
+	position: absolute;
+	top: 56%;
+	left: 56%;
+	height: 8%;
+	font-size: 	x-large;
+	transform: translate(-50%,-80%);
+}
+
+#highScores{
+	position: absolute;
+	top: 14%;
+	left: 42%;
+	}
+#highScores tr{
+	/*background-color: white;*/
+	font-size: x-large;
+	color: white;
+	border-spacing: 50px;
+}
+
+
+/*.botoesmenu button{
+	position: absolute;
+	cursor: pointer;
+	background-color: inherit;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	outline: none;
+	padding: 0px;	
+}
+
+.botoesmenu button:hover{
+	box-shadow: 0px 0px 25px #87CEFA;
+}
+*/
+
+/*New Game Components*/
+.newGame button img{
+	margin: 0%;
+	height: 24%;
+	width: 25%;
+}
+#NewGame{
+	cursor: pointer;
+	background-color: inherit;
+	border: none;
+	position: absolute;
+	outline: none;
+	top: 80%;
+	left: 24%;
+}
+
+
+/*======== Confirmation Box ========*/
+
+.confirmNewGame button {
+	position: absolute;
+	cursor: pointer;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+	border-radius: 10%;
+}
+
+.confirmNewGame button img{
+	margin: 0px;
+	height: 100px;
+	width: 100px;
+}
+
+#simNewGameBttn{
+	margin-left:41%;	
+	top: 55%;
+	height: 100px;
+	width: 100px;
+}
+
+#naoNewGameBttn{
+	margin-left:52%;	
+	top: 55%;
+	width: 100px;
+	height: 100px;
+}
+
+.newGameBox button{
+	position: absolute;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+
+.newGameBox button img{
+	margin: 0px;
+	height: 35%;
+	width: 60%;
+}
+
+#NewGameBox{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left:25%;	
+	top: 26%;
+}
+
+

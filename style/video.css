@@ -1,0 +1,26 @@
+body{
+	position: absolute;
+}
+
+.buttonClass button {
+	position: absolute;
+	cursor: pointer;
+	background-color: inherit;
+	border: none;
+	outline: none;
+}
+
+.buttonClass button img{
+	margin: 0px;
+	height: 30%;
+	width: 20%;
+}
+
+#skipBtn{
+	left:24%;	
+	top: 100%;
+}
+
+.animations{
+	top:10%;
+}
